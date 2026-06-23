@@ -1,0 +1,116 @@
+#{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 16px system-ui, -apple-system, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    background-color: #0d1117;
+    color: #e6edf3;
+}
+
+p {
+    color: #8b949e;
+   
+}
+/* h1 finalizado*/
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: clamp(4rem, 5vw, 4rem);
+    display: flex;
+    justify-content: center;
+}
+
+/* avatar finalizado*/
+.avatar {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: block;
+    margin: 4rem auto;
+}
+
+/* tagline finalizado*/
+.tagline {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color:#8b949e;
+}
+
+.tagline-destaque{
+    font-family: 'Courier New', Courier, monospace;
+    color: #3fb950;
+}
+
+/*Falta tirar o sublinhado, corrigir cor e aumentar a fonte*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    border: 2px solid #21262d;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    flex-wrap: wrap;
+    background-color: #161b22;
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 2rem; 
+}
+
+
+.section-estilo{
+    border: 2px solid #21262d;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #161b22;
+    margin: 20px;
+}
+
+.subtitulo{
+    color: #58a6ff;
+    letter-spacing: 2px;
+}
+
+.sobre-mim {
+    display: inline-block;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*habilidades finalizado*/
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.habilidades-item{
+    background-color: #0d1117;
+    border: 2px solid #21262d;
+    padding: 0.5rem;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    gap: 0.4rem;
+    content: "";
+    margin-right: 10px;
+}
+.ponto-laranja {
+    color: #f78166;
+}
+
+.ponto-azul {
+    color: #58a6ff;
+}
+
+.ponto-verde {
+    color: #3fb950;
+}
+
+

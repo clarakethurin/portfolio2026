@@ -3,41 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Postfolio</title>
     
 </head>
 <body>
-    <img src=".idea/chargePessoal.png" alt="Logo com rosto da criadora"/>
+    <img class="avatar" src="img/chargePessoal.png" alt="Logo com rosto da criadora"/>
     <header>
         <h1> Clara Kethurin</h1>
     </header>
-    <p>Transformando lógica em código - um commit por vez.</p>
-    <!--  ADICIONAR botões responsivos AQUI -->
-    <main>
-        <section>
-            <p>//QUEM EU SOU</p>
-            <h2>Sobre mim</h2>
-                <p>Olá! Sou estudante de Análise e Desenvolvimento de Sistemas na UniCesumar e faço parte da Formação Fullstack do SENAI. Minha jornada na programação mistura teoria e prática: da lógica de algoritmos ao deploy de uma aplicação web.</p>
-                <p>Expandindo minha experiência com desenvolvimento frontend, controle de versão com Git e os fundamentos de redes de computadores. Atualmente aprofundando meu conhecimentos em frontend e brackend, com a linguagem Java. </p>
+    <p class="tagline">Transformando lógica em código - 
+        <span class="tagline-destaque">um commit por vez.</span>
+    </p>
+    <nav>
+        <ul class="menu">
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>   
+        <section class="section-estilo">
+            <p class="subtitulo">// QUEM EU SOU</p>
+            <h2 class="sobre-mim">Sobre mim</h2>
+                <p>Olá! Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> na UniCesumar, faço parte da Formação <strong>Fullstack</strong> do SENAI e estou fazendo o plano de carreira <strong>Fullstack</strong> da Alura. Minha jornada na programação mistura teoria e prática: da lógica de algoritmos ao deploy de uma aplicação web.</p>
+                <p>Expandindo minha experiência com desenvolvimento frontend, controle de versão com Git e os fundamentos de redes de computadores. Atualmente aprofundando meu conhecimentos em <strong>frontend </strong>, com a linguagem <strong>JavaScript</strong>, <strong>HTML</strong>e <strong>CSS</strong> e <strong>backend</strong>, com a linguagem <strong>Java</strong>. </p>
                 <p>Aberta a projetos, colaborações e oportunidades de crescimento.</p>
         </section>
-        <section>
-            <p>//O QUE EU SEI FAZER</p>
+        <section class="section-estilo">
+            <p class="subtitulo">// O QUE EU SEI FAZER</p>
             <h2>Habilidades</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Git & GitHub</li>
-                <li>Lógica de programação</li>
-                <li>Java (POO)</li>
-                <li>VS Code</li>
-                <li>IntelliJ IDEA</li>
+            <ul class="habilidades">
+                <li class="habilidades-item"><span class="ponto-laranja">●</span> HTML5</li>
+                <li class="habilidades-item"><span class="ponto-azul">●</span> CSS3</li>
+                <li class="habilidades-item"><span class="ponto-laranja">●</span> JavaScript</li>
+                <li class="habilidades-item"><span class="ponto-laranja">●</span> Git & GitHub</li>
+                <li class="habilidades-item"><span class="ponto-verde">●</span> Lógica de programação</li>
+                <li class="habilidades-item"><span class="ponto-laranja">●</span> Java (POO)</li>
+                <li class="habilidades-item"><span class="ponto-azul">●</span> VS Code</li>
+                <li class="habilidades-item"><span class="ponto-azul">●</span> IntelliJ IDEA</li>
             </ul>
         </section>
-        <section>
-            <p>//O QUE EU CONSTRUÍ</p>
+        <section class="section-estilo">
+            <p class="subtitulo">// O QUE EU CONSTRUÍ</p>
             <h2>Projetos</h2>
             <p>Jogo Amigo Secreto e Jogo Secreto</p>
             <p>Implementação de lógica de sorteio, manipulação de arrays e interação com o usuário via JavaScript. </p>
@@ -54,9 +64,9 @@
             <!-- <p> Java (mesmo do de cima) </p>
             <nav> COLOCAR LINK DO GITHUB AQUI </nav> -->
         </section>
-        <section>
+        <section class="section-estilo">
             <!--  <aside> PESQUISAR COMO FAZ ISSO AQUI</aside>-->
-            <p>//LNKS & MAIS</p>
+            <p class="subtitulo">// LINKS & MAIS</p>
             <h2>Extras</h2>
             <P>REDES</P>
             <a href="https://github.com/clarakethurin" >GitHub</a>
